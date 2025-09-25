@@ -82,3 +82,15 @@ O código do Arduino é simples e robusto.
 3.  **Problemas com a Lógica de Varredura:** O recurso de varredura manual (`SweepButton_Click`) precisava ser aprimorado para evitar que o usuário interagisse com a UI enquanto o motor se movia.
     * **Causa:** O usuário poderia clicar em outro botão ou alternar o modo automático no meio de uma varredura, causando comportamento inesperado ou erros.
     * **Solução:** A função `SetControlsEnabled` foi criada para desativar os botões de controle durante a varredura. Além disso, o uso de `async` e `await Task.Delay` permitiu que a varredura ocorresse sem congelar a interface, proporcionando uma experiência de usuário mais fluida.
+
+---
+
+## 6. Componentes Utilizados na Montagem 🛠️
+
+Para replicar o projeto, você precisará dos seguintes componentes eletrônicos:
+
+* **Arduino:** Placa de microcontrolador (pode ser um **Uno**, **Nano** ou similar).
+* **Sensores de Luz LDR:** Dois resistores dependentes de luz (LDRs) para detectar a intensidade luminosa.
+* **Micro Servo Motor SG90:** Um pequeno servo motor para controlar a posição da plataforma.
+* **Protoboard:** Uma placa de ensaio para montar os componentes de forma temporária e sem solda.
+* **Jumpers (fios):** Fios de conexão macho-macho e/ou macho-fêmea para ligar os componentes na protoboard e no Arduino.
