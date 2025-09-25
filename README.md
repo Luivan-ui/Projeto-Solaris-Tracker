@@ -94,3 +94,16 @@ Para replicar o projeto, você precisará dos seguintes componentes eletrônicos
 * **Micro Servo Motor SG90:** Um pequeno servo motor para controlar a posição da plataforma.
 * **Protoboard:** Uma placa de ensaio para montar os componentes de forma temporária e sem solda.
 * **Jumpers (fios):** Fios de conexão macho-macho e/ou macho-fêmea para ligar os componentes na protoboard e no Arduino.
+
+### Exemplo da montagem realizada
+
+<img src="https://i.postimg.cc/KvJ9Qfkd/Whats-App-Image-2025-09-17-at-19-33-48.jpg" alt="Montagem 1" width="300" height="500" /> <img src="https://i.postimg.cc/dV35fCGD/Whats-App-Image-2025-09-17-at-19-33-48-1.jpg" alt="Montagem 2" width="300" height="500" />
+
+-----
+
+### Autores
+
+  * Kaio Alves
+  * Miguel Duarte
+  * Yhan Phillipe
+  * Luis Ivan
